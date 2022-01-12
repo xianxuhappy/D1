@@ -21,6 +21,20 @@
       (LibraryName
          "D:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName
+         "D:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
     (TFCARD-SHORT-8P
       (FullPartName "TFCARD-SHORT-8P.Normal")
       (LibraryName "F:\CADENCE\MYLIB\OLB\MY_LIB.OLB")
@@ -29,23 +43,9 @@
       (FullPartName "XTAL.Normal")
       (LibraryName "F:\CADENCE\MYLIB\OLB\MY_LIB.OLB")
       (DeviceIndex "0"))
-    ("CAP NP"
-      (FullPartName "CAP NP.Normal")
-      (LibraryName
-         "D:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
     (XTAL-4
       (FullPartName "XTAL-4.Normal")
       (LibraryName "F:\CADENCE\MYLIB\OLB\MY_LIB.OLB")
-      (DeviceIndex "0"))
-    (VCC_BAR
-      (LibraryName
-         "D:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (R
-      (FullPartName "R.Normal")
-      (LibraryName
-         "D:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
     (K4B4G1646E
       (FullPartName "K4B4G1646E.Normal")
@@ -63,11 +63,10 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "F:\hanxu_doc\SCH\D1\SCH\d1.dsn")
-      (Path "Design Resources" "F:\hanxu_doc\SCH\D1\SCH\d1.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\d1.dsn")
+      (Path "Design Resources" ".\d1.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Select "Design Resources" "F:\hanxu_doc\SCH\D1\SCH\d1.dsn" "SCHEMATIC1"
-         "DRAM"))
+      (Select "Design Resources" ".\d1.dsn" "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -78,7 +77,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 25 1153 25 490")
-        (Scroll "0 0")
+        (Scroll "100 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path "F:\HANXU_DOC\SCH\D1\SCH\D1.DSN")
@@ -87,10 +86,20 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 50 1438 50 519")
-        (Scroll "112 260")
-        (Zoom "200")
+        (Placement "44 0 1 -1 -1 -8 -30 50 1438 50 519")
+        (Scroll "-176 0")
+        (Zoom "65")
         (Occurrence "/"))
       (Path "F:\HANXU_DOC\SCH\D1\SCH\D1.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "DRAM"))))
+      (Page "DRAM"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 100 1488 100 569")
+        (Scroll "1242 931")
+        (Zoom "168")
+        (Occurrence "/"))
+      (Path "F:\HANXU_DOC\SCH\D1\SCH\D1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))
