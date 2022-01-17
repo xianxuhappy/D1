@@ -1,0 +1,26 @@
+\t (00:29:35) allegro 17.2 S079 Windows SPB 64-bit Edition
+\t (00:29:35)     Journal start - Mon Jan 17 20:07:42 2022
+\t (00:29:35)         Host=DESKTOP-N6A2H45 User=HX Pid=18652 CPUs=24
+\t (00:29:35) CmdLine= d:\cadence\cadence_spb_17.2-2016\tools\bin\allegro.exe F:\PCB_PROJECT\am3352_ddr_1\sot-23.dra
+\t (00:29:35) 
+\t (00:29:35) Starting new design...
+\i (00:29:36) trapsize 515
+\i (00:29:36) trapsize 530
+\i (00:29:36) trapsize 535
+\i (00:29:36) trapsize 1088
+\i (00:29:36) trapsize 1088
+\i (00:29:36) trapsize 906
+\i (00:29:36) generaledit 
+\i (00:29:40) netin 
+\i (00:29:43) setwindow form.niparams
+\i (00:29:43) FORM niparams capture_netlist YES 
+\i (00:29:46) FORM niparams other  
+\i (00:29:47) FORM niparams cadence  
+\i (00:29:50) FORM niparams browse  
+\i (00:29:55) fillin "F:/PCB_PROJECT/D1/SCH/allegro"
+\i (00:29:57) FORM niparams import  
+\t (00:29:57) Starting Cadence Logic Import...
+\w (00:29:58) WARNING(SPMHGE-269): netrev had warnings, use Viewlog to review the log file.
+\t (00:29:58) Opening existing design...
+\i (00:29:58) setwindow pcb
+\i (00:29:58) trapsize 906

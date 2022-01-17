@@ -1,0 +1,16 @@
+Reading Layer Conversion File 
+
+
+WARNING(SPMHA2-118): 'DESIGN_OUTLINE' and 'CUTOUT' are the preferred subclasses for defining an outline. Use these subclasses instead of the 'OUTLINE' subclass. [help]
+
+Reading DXF file...
+done.
+Layer conversion file: F:/PCB_PROJECT/AM3352/PCB/BOARD_OUTLINE_l.cnv
+DXF file: F:/PCB_PROJECT/AM3352/PCB/BOARD_OUTLINE.dxf
+BRD file: F:/PCB_PROJECT/D1/PCB/#Taaaaai04476.tmp
+Update existing design?: NO
+Use default text?: NO
+DXF units: MILS
+Design units: MILS
+Design precision: 4
+dxf2a complete.
