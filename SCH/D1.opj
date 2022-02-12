@@ -16,7 +16,7 @@
     (DOCKING_POSITION "59420")
     (ANNOTATE_Scope "0")
     (ANNOTATE_Mode "1")
-    (ANNOTATE_Action "3")
+    (ANNOTATE_Action "1")
     (Annotate_Page_Order "0")
     (ANNOTATE_Reset_References_to_1 "FALSE")
     (ANNOTATE_No_Page_Number_Change "FALSE")
@@ -99,6 +99,23 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (GND
+      (LibraryName
+         "D:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (SGM721
+      (FullPartName "SGM721.Normal")
+      (LibraryName "F:\CADENCE\MYLIB\OLB\MY_LIB.OLB")
+      (DeviceIndex "0"))
+    (MT41K512M16
+      (FullPartName "MT41K512M16.Normal")
+      (LibraryName "F:\CADENCE\MYLIB\OLB\MY_LIB.OLB")
+      (DeviceIndex "0"))
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (PORTBOTH-L
       (LibraryName
          "D:\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
@@ -107,10 +124,6 @@
       (FullPartName "DIODE TAZ.Normal")
       (LibraryName
          "D:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (GND
-      (LibraryName
-         "D:\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     ("HEADER 1"
       (FullPartName "HEADER 1.Normal")
@@ -197,35 +210,23 @@
     (HDMI-Type-A-SLOT
       (FullPartName "HDMI-Type-A-SLOT.Normal")
       (LibraryName "F:\CADENCE\MYLIB\OLB\MY_LIB.OLB")
-      (DeviceIndex "0"))
-    (OV2640
-      (FullPartName "OV2640.Normal")
-      (LibraryName "F:\CADENCE\MYLIB\OLB\MY_LIB.OLB")
-      (DeviceIndex "0"))
-    (SY8089
-      (FullPartName "SY8089.Normal")
-      (LibraryName "F:\CADENCE_LIB\MY_OLB.OLB")
-      (DeviceIndex "0"))
-    (USB-C-16P
-      (FullPartName "USB-C-16P.Normal")
-      (LibraryName "F:\CADENCE\MYLIB\OLB\MY_LIB.OLB")
       (DeviceIndex "0")))
   (MPSSessionName "HX")
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\d1.dsn")
-      (Path "Design Resources" ".\d1.dsn" "SCHEMATIC1")
-      (Path "Design Resources" ".\d1.dsn" "Design Cache")
+      (Path "Design Resources" "f:\pcb_project\d1\sch\d1.dsn")
+      (Path "Design Resources" "f:\pcb_project\d1\sch\d1.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "f:\pcb_project\d1\sch\d1.dsn" "Design Cache")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" "f:\cadence\mylib\olb\my_lib.olb")
       (Path "Outputs")
-      (Select "Design Resources" ".\d1.dsn"))
+      (Select "Design Resources" "f:\pcb_project\d1\sch\d1.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 866"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 858"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
@@ -241,7 +242,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 78 1405 78 643")
-        (Scroll "1154 1475")
+        (Scroll "1317 356")
         (Zoom "208")
         (Occurrence "/"))
       (Path "F:\PCB_PROJECT\D1\SCH\D1.DSN")
@@ -250,9 +251,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 208 1535 208 773")
-        (Scroll "207 673")
-        (Zoom "104")
+        (Placement "44 2 3 -1 -1 -8 -31 208 1535 208 773")
+        (Scroll "1094 0")
+        (Zoom "208")
         (Occurrence "/"))
       (Path "F:\PCB_PROJECT\D1\SCH\D1.DSN")
       (Schematic "SCHEMATIC1")
@@ -260,13 +261,63 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1379 52 617")
-        (Scroll "-17 0")
+        (Placement "44 0 1 -1 -1 -8 -31 52 1379 52 617")
+        (Scroll "214 753")
+        (Zoom "208")
+        (Occurrence "/"))
+      (Path "F:\PCB_PROJECT\D1\SCH\D1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "03DRAM"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 156 1483 156 721")
+        (Scroll "0 208")
+        (Zoom "160")
+        (Occurrence "/"))
+      (Path "F:\PCB_PROJECT\D1\SCH\D1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "02SYS"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 182 1509 182 747")
+        (Scroll "0 70")
         (Zoom "100")
         (Occurrence "/"))
       (Path "F:\PCB_PROJECT\D1\SCH\D1.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "03DRAM")))
+      (Page "01POWER_TREE"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 208 1535 208 773")
+        (Scroll "-114 0")
+        (Zoom "52")
+        (Occurrence "/"))
+      (Path "F:\PCB_PROJECT\D1\SCH\D1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "04GPIO"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 26 1059 26 591")
+        (Scroll "53 109")
+        (Zoom "108")
+        (Occurrence "/"))
+      (Path "F:\PCB_PROJECT\D1\SCH\D1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "08WIFI"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 136 0 39")
+        (Scroll "0 19")
+        (Zoom "108")
+        (Occurrence "/"))
+      (Path "F:\PCB_PROJECT\D1\SCH\D1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "09CONNECTOR")))
   (LastUsedLibraryBrowseDirectory
      "D:\Cadence\Cadence_SPB_16.6\tools\capture\library")
   (ISPCBBASICLICENSE "false"))

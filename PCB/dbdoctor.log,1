@@ -1,0 +1,19 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DBDOCTOR                                                         )
+(                                                                     )
+(    Drawing          : D1.brd                                        )
+(    Software Version : 17.2S079                                      )
+(    Date/Time        : Sat Jan 29 12:15:43 2022                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ERROR: in GROUP 
+  ERROR(SPMHDB-120): Attribute not found.
+  Netclass DDR_DATAL deleted because domain was missing.
+
+WARNING:   WARNING(SPMHDB-42): Run batch DRC to regenerate DRC errs.
+
+1 warnings, 1 errors detected, 1 errors could be fixed.

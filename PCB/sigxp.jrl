@@ -1,0 +1,52 @@
+\t (00:00:00) sigxp 17.2 S079 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Wed Jan 26 23:29:36 2022
+\t (00:00:00)         Host=DESKTOP-N6A2H45 User=HX Pid=8200 CPUs=24
+\t (00:00:00) CmdLine= sigxp -spawn -p F:\PCB_PROJECT\D1\PCB C:/Users/HX/AppData/Local/Temp/#Taaabpa21968.tmp
+\t (00:00:00) 
+\t (00:00:00) Starting new design...
+\i (00:00:00) trapsize 1005
+\i (00:00:00) trapsize 976
+\i (00:00:00) trapsize 1009
+\i (00:00:00) trapsize 1058
+\i (00:00:01) trapsize 6944
+\i (00:00:01) trapsize 1389
+\t (00:00:01) Starting new design...
+\i (00:00:01) trapsize 6944
+\i (00:00:01) trapsize 6944
+\i (00:00:01) trapsize 6944
+   (00:00:01) Loading signal.cxt 
+   (00:00:01) Loading sigxp.cxt 
+   (00:00:01) Loading sxutil.cxt 
+   (00:00:01) Loading axlcore.cxt 
+   (00:00:01) Loading fputil.cxt 
+   (00:00:01) Beginning Autoplacement
+   (00:00:01) Finished Autoplacement
+\i (00:00:01) trapsize 32
+   (00:00:01) Loading skillExt.cxt 
+\i (00:00:02) sigxp background 
+\i (00:00:04) sxoptionalpins 
+\i (00:00:05) sxconstraints 
+\i (00:00:07) setwindow form.sxconstraint
+\i (00:00:07) FORM sxconstraint rel_prop_delay  
+\i (00:00:10) FORM sxconstraint mdnewname  
+\i (00:00:16) FORM sxconstraint mdpins 'U5.T9            IO' 
+\i (00:00:17) FORM sxconstraint mdpins 'U6.K3            IO' 
+\i (00:00:21) FORM sxconstraint mddeltatype Length 
+\i (00:00:23) FORM sxconstraint mdtype Length 
+\i (00:00:25) FORM sxconstraint mddelta 0 
+\i (00:00:30) FORM sxconstraint mdtolerance 10 
+\i (00:00:30) FORM sxconstraint mdmodify  
+\i (00:00:34) fillin confirm
+\i (00:00:36) FORM sxconstraint mdadd  
+\i (00:00:38) FORM sxconstraint mdrules 'DDR_CTL_M2   U5.T9      U6.K3      LOCAL     0.0000 MIL 10.0000 MIL' 
+\i (00:00:43) FORM sxconstraint mdpins 'U7.K3            IO' 
+\i (00:00:45) FORM sxconstraint mdadd  
+\i (00:00:47) FORM sxconstraint apply  
+\i (00:00:48) FORM sxconstraint done  
+\i (00:00:48) setwindow sigxp
+\i (00:00:48) sigxp background 
+\i (00:00:49) update cm 
+\i (00:00:50) fillin yes 
+\i (00:00:50) sigxp background 
+\i (00:00:52) exit 
+\t (00:00:52)     Journal end - Wed Jan 26 23:30:28 2022

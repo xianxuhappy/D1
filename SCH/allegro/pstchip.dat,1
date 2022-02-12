@@ -1,6 +1,6 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Jan-17-2022 at 20:06:28}
-primitive 'CAP NP_R0603_10UF';
+{ Using PSTWRITER 17.2.0 d001Feb-09-2022 at 21:31:44}
+primitive 'CAP NP_C0603_10UF';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -11,7 +11,7 @@ primitive 'CAP NP_R0603_10UF';
   end_pin;
   body
     PART_NAME='CAP NP';
-    JEDEC_TYPE='R0603';
+    JEDEC_TYPE='C0603';
     VALUE='10uf';
   end_body;
 end_primitive;
@@ -75,21 +75,6 @@ primitive 'CAP NP_C0402_12PF';
     VALUE='12pf';
   end_body;
 end_primitive;
-primitive 'CAP NP_R0603_22UF';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CAP NP';
-    JEDEC_TYPE='R0603';
-    VALUE='22uf';
-  end_body;
-end_primitive;
 primitive 'CAP NP_C0603_22UF';
   pin
     '1':
@@ -103,6 +88,21 @@ primitive 'CAP NP_C0603_22UF';
     PART_NAME='CAP NP';
     JEDEC_TYPE='C0603';
     VALUE='22uf';
+  end_body;
+end_primitive;
+primitive 'CAP NP_C0402_10UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='C0402';
+    VALUE='10uf';
   end_body;
 end_primitive;
 primitive 'CAP NP_C0402_33P';
@@ -693,6 +693,21 @@ primitive 'HDMI-TYPE-A-SLOT_HDMI23P50B1215';
     VALUE='HDMI-Type-A-SLOT';
   end_body;
 end_primitive;
+primitive 'INDUCTOR_L2520_1.5UH';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='INDUCTOR';
+    JEDEC_TYPE='L2520';
+    VALUE='1.5uh';
+  end_body;
+end_primitive;
 primitive 'INDUCTOR_L0603_0';
   pin
     '1':
@@ -741,7 +756,7 @@ primitive 'MOSFET P_SOT-23_WPM3407-3/TR';
     VALUE='WPM3407-3/TR';
   end_body;
 end_primitive;
-primitive 'MOSFET N_SOT-323_2SK3018';
+primitive 'MOSFET N_SOT-23_NMOS';
   pin
     'DRAIN':
       PIN_NUMBER='(3)';
@@ -755,8 +770,8 @@ primitive 'MOSFET N_SOT-323_2SK3018';
   end_pin;
   body
     PART_NAME='MOSFET N';
-    JEDEC_TYPE='SOT-323';
-    VALUE='2SK3018';
+    JEDEC_TYPE='SOT-23';
+    VALUE='nmos';
   end_body;
 end_primitive;
 primitive 'R_R0805_0';
@@ -774,7 +789,7 @@ primitive 'R_R0805_0';
     VALUE='0';
   end_body;
 end_primitive;
-primitive 'R_R0603_0';
+primitive 'R_R0402_10K';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -785,8 +800,8 @@ primitive 'R_R0603_0';
   end_pin;
   body
     PART_NAME='R';
-    JEDEC_TYPE='R0603';
-    VALUE='0';
+    JEDEC_TYPE='R0402';
+    VALUE='10k';
   end_body;
 end_primitive;
 primitive 'R_R0402_DNP/4.7K';
@@ -804,7 +819,7 @@ primitive 'R_R0402_DNP/4.7K';
     VALUE='DNP/4.7k';
   end_body;
 end_primitive;
-primitive 'R_R0402_0_DNP';
+primitive 'R_R0805_0_DNP';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -815,11 +830,11 @@ primitive 'R_R0402_0_DNP';
   end_pin;
   body
     PART_NAME='R';
-    JEDEC_TYPE='R0402';
+    JEDEC_TYPE='R0805';
     VALUE='0_DNP';
   end_body;
 end_primitive;
-primitive 'R_R0402_10K';
+primitive 'R_R0603_0';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -830,8 +845,8 @@ primitive 'R_R0402_10K';
   end_pin;
   body
     PART_NAME='R';
-    JEDEC_TYPE='R0402';
-    VALUE='10k';
+    JEDEC_TYPE='R0603';
+    VALUE='0';
   end_body;
 end_primitive;
 primitive 'R_R0402_1K';
@@ -894,6 +909,21 @@ primitive 'R_R0402_6.8K';
     VALUE='6.8k';
   end_body;
 end_primitive;
+primitive 'R_R0402_2K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='R0402';
+    VALUE='2K';
+  end_body;
+end_primitive;
 primitive 'R_R0402_25K';
   pin
     '1':
@@ -907,21 +937,6 @@ primitive 'R_R0402_25K';
     PART_NAME='R';
     JEDEC_TYPE='R0402';
     VALUE='25k';
-  end_body;
-end_primitive;
-primitive 'R_R0402_2K';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='R';
-    JEDEC_TYPE='R0402';
-    VALUE='2k';
   end_body;
 end_primitive;
 primitive 'R_R0402_20K';
@@ -967,21 +982,6 @@ primitive 'R_R0402_150K';
     PART_NAME='R';
     JEDEC_TYPE='R0402';
     VALUE='150k';
-  end_body;
-end_primitive;
-primitive 'R_R0603_12K';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='R';
-    JEDEC_TYPE='R0603';
-    VALUE='12k';
   end_body;
 end_primitive;
 primitive 'R_R0402_74K';
@@ -1072,6 +1072,21 @@ primitive 'R_R0402_4.7K';
     PART_NAME='R';
     JEDEC_TYPE='R0402';
     VALUE='4.7k';
+  end_body;
+end_primitive;
+primitive 'R_R0402_12K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='R0402';
+    VALUE='12k';
   end_body;
 end_primitive;
 primitive 'R_R0402_470K';
@@ -1738,6 +1753,30 @@ primitive 'AP6212_AP6212_AP6212';
     PART_NAME='AP6212';
     JEDEC_TYPE='AP6212';
     VALUE='AP6212';
+  end_body;
+end_primitive;
+primitive 'SGM721_SOT23-5-0P95-2P8-1P6X2P9';
+  pin
+    'O':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'V-':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '+':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '-':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'V+':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='SGM721';
+    JEDEC_TYPE='SOT23-5-0P95-2P8-1P6X2P9MM';
+    VALUE='SGM721';
   end_body;
 end_primitive;
 primitive 'D1-BGA337-0518_BGA337P65B1300_1';
@@ -2761,7 +2800,7 @@ primitive 'D1-BGA337-0518_BGA337P65B1300_1';
     VALUE='D1-BGA337-0518';
   end_body;
 end_primitive;
-primitive 'K4B4G1646E_DDR3-BGA96_K4B4G1646';
+primitive 'MT41K512M16_DDR3-BGA96_MT41K512';
   pin
     'A0':
       PIN_NUMBER='(N3)';
@@ -2820,14 +2859,14 @@ primitive 'K4B4G1646E_DDR3-BGA96_K4B4G1646';
     'CAS':
       PIN_NUMBER='(K3)';
       PINUSE='UNSPEC';
-    'CK_P':
-      PIN_NUMBER='(J7)';
+    'CKE':
+      PIN_NUMBER='(K9)';
       PINUSE='UNSPEC';
     'CK_N':
       PIN_NUMBER='(K7)';
       PINUSE='UNSPEC';
-    'CKE':
-      PIN_NUMBER='(K9)';
+    'CK_P':
+      PIN_NUMBER='(J7)';
       PINUSE='UNSPEC';
     'CS':
       PIN_NUMBER='(L2)';
@@ -2838,6 +2877,81 @@ primitive 'K4B4G1646E_DDR3-BGA96_K4B4G1646';
     'DMU':
       PIN_NUMBER='(D3)';
       PINUSE='UNSPEC';
+    'DQL0':
+      PIN_NUMBER='(E3)';
+      PINUSE='UNSPEC';
+    'DQL1':
+      PIN_NUMBER='(F7)';
+      PINUSE='UNSPEC';
+    'DQL2':
+      PIN_NUMBER='(F2)';
+      PINUSE='UNSPEC';
+    'DQL3':
+      PIN_NUMBER='(F8)';
+      PINUSE='UNSPEC';
+    'DQL4':
+      PIN_NUMBER='(H3)';
+      PINUSE='UNSPEC';
+    'DQL5':
+      PIN_NUMBER='(H8)';
+      PINUSE='UNSPEC';
+    'DQL6':
+      PIN_NUMBER='(G2)';
+      PINUSE='UNSPEC';
+    'DQL7':
+      PIN_NUMBER='(H7)';
+      PINUSE='UNSPEC';
+    'DQSL_N':
+      PIN_NUMBER='(G3)';
+      PINUSE='UNSPEC';
+    'DQSL_P':
+      PIN_NUMBER='(F3)';
+      PINUSE='UNSPEC';
+    'DQSU_N':
+      PIN_NUMBER='(B7)';
+      PINUSE='UNSPEC';
+    'DQSU_P':
+      PIN_NUMBER='(C7)';
+      PINUSE='UNSPEC';
+    'DQU0':
+      PIN_NUMBER='(D7)';
+      PINUSE='UNSPEC';
+    'DQU1':
+      PIN_NUMBER='(C3)';
+      PINUSE='UNSPEC';
+    'DQU2':
+      PIN_NUMBER='(C8)';
+      PINUSE='UNSPEC';
+    'DQU3':
+      PIN_NUMBER='(C2)';
+      PINUSE='UNSPEC';
+    'DQU4':
+      PIN_NUMBER='(A7)';
+      PINUSE='UNSPEC';
+    'DQU5':
+      PIN_NUMBER='(A2)';
+      PINUSE='UNSPEC';
+    'DQU6':
+      PIN_NUMBER='(B8)';
+      PINUSE='UNSPEC';
+    'DQU7':
+      PIN_NUMBER='(A3)';
+      PINUSE='UNSPEC';
+    'NC_1':
+      PIN_NUMBER='(J1)';
+      PINUSE='UNSPEC';
+    'NC_2':
+      PIN_NUMBER='(J9)';
+      PINUSE='UNSPEC';
+    'NC_3':
+      PIN_NUMBER='(L1)';
+      PINUSE='UNSPEC';
+    'NC_4':
+      PIN_NUMBER='(L9)';
+      PINUSE='UNSPEC';
+    'A15':
+      PIN_NUMBER='(M7)';
+      PINUSE='UNSPEC';
     'ODT':
       PIN_NUMBER='(K1)';
       PINUSE='UNSPEC';
@@ -2846,33 +2960,6 @@ primitive 'K4B4G1646E_DDR3-BGA96_K4B4G1646';
       PINUSE='UNSPEC';
     'RESET':
       PIN_NUMBER='(T2)';
-      PINUSE='UNSPEC';
-    'VDD_1':
-      PIN_NUMBER='(B2)';
-      PINUSE='UNSPEC';
-    'VDD_2':
-      PIN_NUMBER='(D9)';
-      PINUSE='UNSPEC';
-    'VDD_3':
-      PIN_NUMBER='(G7)';
-      PINUSE='UNSPEC';
-    'VDD_4':
-      PIN_NUMBER='(K2)';
-      PINUSE='UNSPEC';
-    'VDD_5':
-      PIN_NUMBER='(K8)';
-      PINUSE='UNSPEC';
-    'VDD_6':
-      PIN_NUMBER='(N1)';
-      PINUSE='UNSPEC';
-    'VDD_7':
-      PIN_NUMBER='(N9)';
-      PINUSE='UNSPEC';
-    'VDD_8':
-      PIN_NUMBER='(R1)';
-      PINUSE='UNSPEC';
-    'VDD_9':
-      PIN_NUMBER='(R9)';
       PINUSE='UNSPEC';
     'VDDQ_1':
       PIN_NUMBER='(A1)';
@@ -2901,128 +2988,38 @@ primitive 'K4B4G1646E_DDR3-BGA96_K4B4G1646';
     'VDDQ_9':
       PIN_NUMBER='(H9)';
       PINUSE='UNSPEC';
+    'VDD_1':
+      PIN_NUMBER='(B2)';
+      PINUSE='UNSPEC';
+    'VDD_2':
+      PIN_NUMBER='(D9)';
+      PINUSE='UNSPEC';
+    'VDD_3':
+      PIN_NUMBER='(G7)';
+      PINUSE='UNSPEC';
+    'VDD_4':
+      PIN_NUMBER='(K2)';
+      PINUSE='UNSPEC';
+    'VDD_5':
+      PIN_NUMBER='(K8)';
+      PINUSE='UNSPEC';
+    'VDD_6':
+      PIN_NUMBER='(N1)';
+      PINUSE='UNSPEC';
+    'VDD_7':
+      PIN_NUMBER='(N9)';
+      PINUSE='UNSPEC';
+    'VDD_8':
+      PIN_NUMBER='(R1)';
+      PINUSE='UNSPEC';
+    'VDD_9':
+      PIN_NUMBER='(R9)';
+      PINUSE='UNSPEC';
     'VREFCA':
       PIN_NUMBER='(M8)';
       PINUSE='UNSPEC';
     'VREFDQ':
       PIN_NUMBER='(H1)';
-      PINUSE='UNSPEC';
-    'WE':
-      PIN_NUMBER='(L3)';
-      PINUSE='UNSPEC';
-    'ZQ':
-      PIN_NUMBER='(L8)';
-      PINUSE='UNSPEC';
-    'DQL0':
-      PIN_NUMBER='(E3)';
-      PINUSE='UNSPEC';
-    'DQL1':
-      PIN_NUMBER='(F7)';
-      PINUSE='UNSPEC';
-    'DQL2':
-      PIN_NUMBER='(F2)';
-      PINUSE='UNSPEC';
-    'DQL3':
-      PIN_NUMBER='(F8)';
-      PINUSE='UNSPEC';
-    'DQL4':
-      PIN_NUMBER='(H3)';
-      PINUSE='UNSPEC';
-    'DQL5':
-      PIN_NUMBER='(H8)';
-      PINUSE='UNSPEC';
-    'DQL6':
-      PIN_NUMBER='(G2)';
-      PINUSE='UNSPEC';
-    'DQL7':
-      PIN_NUMBER='(H7)';
-      PINUSE='UNSPEC';
-    'DQSL_P':
-      PIN_NUMBER='(F3)';
-      PINUSE='UNSPEC';
-    'DQSL_N':
-      PIN_NUMBER='(G3)';
-      PINUSE='UNSPEC';
-    'DQU0':
-      PIN_NUMBER='(D7)';
-      PINUSE='UNSPEC';
-    'DQU1':
-      PIN_NUMBER='(C3)';
-      PINUSE='UNSPEC';
-    'DQU2':
-      PIN_NUMBER='(C8)';
-      PINUSE='UNSPEC';
-    'DQU3':
-      PIN_NUMBER='(C2)';
-      PINUSE='UNSPEC';
-    'DQU4':
-      PIN_NUMBER='(A7)';
-      PINUSE='UNSPEC';
-    'DQU5':
-      PIN_NUMBER='(A2)';
-      PINUSE='UNSPEC';
-    'DQU6':
-      PIN_NUMBER='(B8)';
-      PINUSE='UNSPEC';
-    'DQU7':
-      PIN_NUMBER='(A3)';
-      PINUSE='UNSPEC';
-    'DQSU_P':
-      PIN_NUMBER='(C7)';
-      PINUSE='UNSPEC';
-    'DQSU_N':
-      PIN_NUMBER='(B7)';
-      PINUSE='UNSPEC';
-    'NC_1':
-      PIN_NUMBER='(J1)';
-      PINUSE='UNSPEC';
-    'NC_2':
-      PIN_NUMBER='(J9)';
-      PINUSE='UNSPEC';
-    'NC_3':
-      PIN_NUMBER='(L1)';
-      PINUSE='UNSPEC';
-    'NC_4':
-      PIN_NUMBER='(L9)';
-      PINUSE='UNSPEC';
-    'NC_5':
-      PIN_NUMBER='(M7)';
-      PINUSE='UNSPEC';
-    'VSS_1':
-      PIN_NUMBER='(A9)';
-      PINUSE='UNSPEC';
-    'VSS_2':
-      PIN_NUMBER='(B3)';
-      PINUSE='UNSPEC';
-    'VSS_3':
-      PIN_NUMBER='(E1)';
-      PINUSE='UNSPEC';
-    'VSS_4':
-      PIN_NUMBER='(G8)';
-      PINUSE='UNSPEC';
-    'VSS_5':
-      PIN_NUMBER='(J2)';
-      PINUSE='UNSPEC';
-    'VSS_6':
-      PIN_NUMBER='(J8)';
-      PINUSE='UNSPEC';
-    'VSS_7':
-      PIN_NUMBER='(M1)';
-      PINUSE='UNSPEC';
-    'VSS_8':
-      PIN_NUMBER='(M9)';
-      PINUSE='UNSPEC';
-    'VSS_9':
-      PIN_NUMBER='(P1)';
-      PINUSE='UNSPEC';
-    'VSS_10':
-      PIN_NUMBER='(P9)';
-      PINUSE='UNSPEC';
-    'VSS_11':
-      PIN_NUMBER='(T1)';
-      PINUSE='UNSPEC';
-    'VSS_12':
-      PIN_NUMBER='(T9)';
       PINUSE='UNSPEC';
     'VSSQ_1':
       PIN_NUMBER='(B1)';
@@ -3051,11 +3048,53 @@ primitive 'K4B4G1646E_DDR3-BGA96_K4B4G1646';
     'VSSQ_9':
       PIN_NUMBER='(G9)';
       PINUSE='UNSPEC';
+    'VSS_1':
+      PIN_NUMBER='(A9)';
+      PINUSE='UNSPEC';
+    'VSS_10':
+      PIN_NUMBER='(P9)';
+      PINUSE='UNSPEC';
+    'VSS_11':
+      PIN_NUMBER='(T1)';
+      PINUSE='UNSPEC';
+    'VSS_12':
+      PIN_NUMBER='(T9)';
+      PINUSE='UNSPEC';
+    'VSS_2':
+      PIN_NUMBER='(B3)';
+      PINUSE='UNSPEC';
+    'VSS_3':
+      PIN_NUMBER='(E1)';
+      PINUSE='UNSPEC';
+    'VSS_4':
+      PIN_NUMBER='(G8)';
+      PINUSE='UNSPEC';
+    'VSS_5':
+      PIN_NUMBER='(J2)';
+      PINUSE='UNSPEC';
+    'VSS_6':
+      PIN_NUMBER='(J8)';
+      PINUSE='UNSPEC';
+    'VSS_7':
+      PIN_NUMBER='(M1)';
+      PINUSE='UNSPEC';
+    'VSS_8':
+      PIN_NUMBER='(M9)';
+      PINUSE='UNSPEC';
+    'VSS_9':
+      PIN_NUMBER='(P1)';
+      PINUSE='UNSPEC';
+    'WE':
+      PIN_NUMBER='(L3)';
+      PINUSE='UNSPEC';
+    'ZQ':
+      PIN_NUMBER='(L8)';
+      PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='K4B4G1646E';
+    PART_NAME='MT41K512M16';
     JEDEC_TYPE='DDR3-BGA96';
-    VALUE='K4B4G1646E';
+    VALUE='MT41K512M16';
   end_body;
 end_primitive;
 primitive 'WS2812C-2020_LED4B200_220H84_WS';
