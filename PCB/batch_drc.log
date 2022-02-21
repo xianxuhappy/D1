@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : D1.brd                                        )
 (    Software Version : 17.2S079                                      )
-(    Date/Time        : Thu Feb 10 20:58:00 2022                      )
+(    Date/Time        : Sun Feb 13 14:06:43 2022                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,8 +20,8 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  130
+ ..... Total number of DRC errors  6
 
- ..... DRC update completed, total CPU time   0:00:01
+ ..... DRC update completed, total CPU time   0:00:02
  *************************************************************************
 

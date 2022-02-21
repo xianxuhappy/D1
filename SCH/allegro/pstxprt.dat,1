@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 17.2.0 d001Feb-09-2022 at 21:31:44 }
+{ Using PSTWRITER 17.2.0 d001Feb-10-2022 at 21:55:10 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='D1';
@@ -2674,26 +2674,6 @@ SECTION_NUMBER 1
  '@D1.SCHEMATIC1(SCH_1):INS70228@DISCRETE.R.NORMAL(CHIPS)':
  C_PATH='@d1.schematic1(sch_1):ins70228@discrete.\r.normal\(chips)',
  P_PATH='@d1.schematic1(sch_1):page6_ins70228@discrete.\r.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- R65 'R_R0402_4.7K':;
-
-SECTION_NUMBER 1
- '@D1.SCHEMATIC1(SCH_1):INS69881@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@d1.schematic1(sch_1):ins69881@discrete.\r.normal\(chips)',
- P_PATH='@d1.schematic1(sch_1):page6_ins69881@discrete.\r.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- R66 'R_R0402_4.7K':;
-
-SECTION_NUMBER 1
- '@D1.SCHEMATIC1(SCH_1):INS69910@DISCRETE.R.NORMAL(CHIPS)':
- C_PATH='@d1.schematic1(sch_1):ins69910@discrete.\r.normal\(chips)',
- P_PATH='@d1.schematic1(sch_1):page6_ins69910@discrete.\r.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

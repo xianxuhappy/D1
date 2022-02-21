@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : D1.brd                                        )
 (    Software Version : 17.2S079                                      )
-(    Date/Time        : Thu Feb 10 21:55:27 2022                      )
+(    Date/Time        : Sun Feb 13 11:52:09 2022                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -22,14 +22,14 @@ Design Directory:            'F:/PCB_PROJECT/D1/PCB'
 Old design name:             'F:/PCB_PROJECT/D1/PCB/D1.brd'
 New design name:             'F:/PCB_PROJECT/D1/PCB/D1.brd'
 
-CmdLine: netrev -$ -i F:/PCB_PROJECT/D1/SCH/allegro -y 1 -h -q netrev_constraint_report.xml F:/PCB_PROJECT/D1/PCB/#Taaabdp06080.tmp
+CmdLine: netrev -$ -i F:/PCB_PROJECT/D1/SCH/allegro -y 1 -h -q netrev_constraint_report.xml F:/PCB_PROJECT/D1/PCB/#Taaaamp03016.tmp
 
 ------ Preparing to read pst files ------
 
 Starting to read F:/PCB_PROJECT/D1/SCH/allegro/pstchip.dat 
    Finished reading F:/PCB_PROJECT/D1/SCH/allegro/pstchip.dat (00:00:00.03)
 Starting to read F:/PCB_PROJECT/D1/SCH/allegro/pstxprt.dat 
-   Finished reading F:/PCB_PROJECT/D1/SCH/allegro/pstxprt.dat (00:00:00.00)
+   Finished reading F:/PCB_PROJECT/D1/SCH/allegro/pstxprt.dat (00:00:00.01)
 Starting to read F:/PCB_PROJECT/D1/SCH/allegro/pstxnet.dat 
    Finished reading F:/PCB_PROJECT/D1/SCH/allegro/pstxnet.dat (00:00:00.00)
 
@@ -62,7 +62,7 @@ PADPATH =  F:/cadence/mylib/pad_lib/
 ------ Summary Statistics ------
 
 
-netrev run on Feb 10 21:55:27 2022
+netrev run on Feb 13 11:52:09 2022
    DESIGN NAME : 'D1'
    PACKAGING ON Nov 12 2021 16:47:14
 
@@ -87,6 +87,6 @@ netrev run on Feb 10 21:55:27 2022
  No oversight detected
  No warning detected
 
-cpu time      0:00:51
-elapsed time  0:00:00
+cpu time      0:02:13
+elapsed time  0:00:01
 

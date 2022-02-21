@@ -1,9 +1,9 @@
-Wed Jan 26 21:19:06 2022				Page     1
+Fri Feb 04 11:52:50 2022				Page     1
 
 
  
 Update Symbols/Modules Logfile
-	Wed Jan 26 21:19:06 2022
+	Fri Feb 04 11:52:50 2022
 
 ------ Module Refresh Messages ------
 
@@ -19,12 +19,12 @@ SUMMARY:    Updated 0 out of 0 modules
 (                                                                     )
 (    Drawing          : D1.brd                                        )
 (    Software Version : 17.2S079                                      )
-(    Date/Time        : Wed Jan 26 21:19:07 2022                      )
+(    Date/Time        : Fri Feb 04 11:52:51 2022                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Wed Jan 26 21:19:07 2022				Page     1
+Fri Feb 04 11:52:51 2022				Page     1
 
 
 ------ Symbol Refresh Directives ------
@@ -36,13 +36,13 @@ Update mechanical symbols              = 'NO'
 Update format symbols                  = 'NO'
 Update package symbols                 = 'NO'
 Update shape/flash symbols             = 'NO'
-Update symbol padstacks                = 'NO'
+Update symbol padstacks                = 'YES'
 Preserve padstacks replaced on pins    = 'NO'
 Reset symbol text and size locations   = 'NO'
 Reset Pin Escapes (fanouts)            = 'NO'
 Ripup Etch                             = 'NO'
 Reset custom drill data                = 'NO'
-Symbol list file                       = 'C:/Users/HX/AppData/Local/Temp/#Taaaacu21968.tmp'
+Symbol list file                       = 'C:/Users/HX/AppData/Local/Temp/#Taaaasz04560.tmp'
 
 
 ------ Library Paths ------
@@ -67,11 +67,19 @@ PADPATH =  F:/cadence/mylib/pad_lib/
 
 ------ Symbol Refresh Messages ------
 
-'C0402'  symbol refreshed successfully.
+'HEADER-1X5'  symbol refreshed successfully.
+'HEADER-1X4'  symbol refreshed successfully.
+'HEADER-20X2'  symbol refreshed successfully.
+
+
+------ Pad Stack Refresh Messages ------
+
+'C_PAD_60_40MIL'  pad stack refreshed successfully.
+'S_PAD_60_40MIL'  pad stack refreshed successfully.
 
 
 ----- Symbol Update Summary ----
 
-Updated symbols: 1 out 1
+Updated symbols: 3 out 3
     Design updated.
 

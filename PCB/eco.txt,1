@@ -3,21 +3,17 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  F:/PCB_PROJECT/D1/PCB/D1.brd                                                |
-|                                                    Wed Feb 09 22:36:06 2022  |
+|                                                    Sat Feb 12 19:51:07 2022  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  USB0_DM      pins MOVED FROM this net (to net name listed on right)
-                                 U12.4           3196.69 1887.40
-                                                                        USB0_DP
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  USB0_DP      pins MOVED FROM this net (to net name listed on right)
-                                 U12.3           3196.69 1812.59
-                                                                        USB0_DM
+  VCC_3V3_2A   pins MOVED FROM this net (to net name listed on right)
+                                 D2.2            2810.00 1969.00
+                                                                        VCC_3V3
 |------------------------------------------------------------------------------|
-|       Nets changed          :       2                                        |
+|       Nets changed          :       1                                        |
 |                                                                              |
-|   Total ECO changes reported:       2                                        |
+|   Total ECO changes reported:       1                                        |
 |------------------------------------------------------------------------------|

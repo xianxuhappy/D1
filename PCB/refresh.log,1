@@ -1,9 +1,9 @@
-Wed Jan 19 19:44:26 2022				Page     1
+Wed Jan 19 21:04:35 2022				Page     1
 
 
  
 Update Symbols/Modules Logfile
-	Wed Jan 19 19:44:26 2022
+	Wed Jan 19 21:04:35 2022
 
 ------ Module Refresh Messages ------
 
@@ -19,12 +19,12 @@ SUMMARY:    Updated 0 out of 0 modules
 (                                                                     )
 (    Drawing          : D1.brd                                        )
 (    Software Version : 17.2S079                                      )
-(    Date/Time        : Wed Jan 19 19:44:27 2022                      )
+(    Date/Time        : Wed Jan 19 21:04:36 2022                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Wed Jan 19 19:44:27 2022				Page     1
+Wed Jan 19 21:04:36 2022				Page     1
 
 
 ------ Symbol Refresh Directives ------
@@ -66,49 +66,50 @@ PADPATH =  F:/cadence/mylib/pad_lib/
 
 ------ Symbol Refresh Messages ------
 
-'FPC8-0P5MM'  symbol refreshed successfully.
-'FPC24-0P5MM'  symbol refreshed successfully.
-'MSOP10-0P5-3X3MM'  symbol refreshed successfully.
-'LED4B200_220H84'  symbol refreshed successfully.
-'HDMI23P50B1215_1500H838'  symbol refreshed successfully.
-'HP6B620_1410H450'  symbol refreshed successfully.
-'RCLAMP0524P'  symbol refreshed successfully.
-'SOP-8-4P9X3P9MM-1P27MM'  symbol refreshed successfully.
-'AP6212'  symbol refreshed successfully.
-'SW-2P-SMD-1P27'  symbol refreshed successfully.
-'L0603'  symbol refreshed successfully.
-'HEADER-1X5'  symbol refreshed successfully.
-'HEADER-1X4'  symbol refreshed successfully.
-'TFCARD-SHORT-8P'  symbol refreshed successfully.
-'SMB-403A-03'  symbol refreshed successfully.
-'USB-C-16P-SMD'  symbol refreshed successfully.
-'M3-PAD'  symbol refreshed successfully.
-'DDR3-BGA96'  symbol refreshed successfully.
-'USBA-DUAL-PAD'  symbol refreshed successfully.
-'HEADER-20X2'  symbol refreshed successfully.
-'BGA337P65B1300_1300H125'  symbol refreshed successfully.
-'QFN28-0P5-5X5MM'  symbol refreshed successfully.
-'SOT23-5-0P95-2P8-1P6X2P9MM'  symbol refreshed successfully.
-'SP0503BAHTG'  symbol refreshed successfully.
-'CRYSTAL-2520'  symbol refreshed successfully.
-'SOT-23'  symbol refreshed successfully.
-'C0402'  symbol refreshed successfully.
-'R0603'  symbol refreshed successfully.
-'C0603'  symbol refreshed successfully.
-'ESD0402'  symbol refreshed successfully.
-'SOD-123'  symbol refreshed successfully.
-'LED0603'  symbol refreshed successfully.
-'L0806'  symbol refreshed successfully.
-'R0805'  symbol refreshed successfully.
-'R0402'  symbol refreshed successfully.
-'ANT-2051'  symbol refreshed successfully.
-'BUTTON-3X4'  symbol refreshed successfully.
-'CRYSTAL-3215'  symbol refreshed successfully.
+'L2520'  symbol refreshed successfully.
 'TEST-POINT'  symbol refreshed successfully.
+'CRYSTAL-3215'  symbol refreshed successfully.
+'BUTTON-3X4'  symbol refreshed successfully.
+'ANT-2051'  symbol refreshed successfully.
+'R0402'  symbol refreshed successfully.
+'R0805'  symbol refreshed successfully.
+'L0806'  symbol refreshed successfully.
+'LED0603'  symbol refreshed successfully.
+'SOD-123'  symbol refreshed successfully.
+'ESD0402'  symbol refreshed successfully.
+'C0603'  symbol refreshed successfully.
+'R0603'  symbol refreshed successfully.
+'C0402'  symbol refreshed successfully.
+'SOT-23'  symbol refreshed successfully.
+'CRYSTAL-2520'  symbol refreshed successfully.
+'SP0503BAHTG'  symbol refreshed successfully.
+'SOT23-5-0P95-2P8-1P6X2P9MM'  symbol refreshed successfully.
+'QFN28-0P5-5X5MM'  symbol refreshed successfully.
+'BGA337P65B1300_1300H125'  symbol refreshed successfully.
+'HEADER-20X2'  symbol refreshed successfully.
+'USBA-DUAL-PAD'  symbol refreshed successfully.
+'DDR3-BGA96'  symbol refreshed successfully.
+'M3-PAD'  symbol refreshed successfully.
+'USB-C-16P-SMD'  symbol refreshed successfully.
+'SMB-403A-03'  symbol refreshed successfully.
+'TFCARD-SHORT-8P'  symbol refreshed successfully.
+'HEADER-1X4'  symbol refreshed successfully.
+'HEADER-1X5'  symbol refreshed successfully.
+'L0603'  symbol refreshed successfully.
+'SW-2P-SMD-1P27'  symbol refreshed successfully.
+'AP6212'  symbol refreshed successfully.
+'SOP-8-4P9X3P9MM-1P27MM'  symbol refreshed successfully.
+'RCLAMP0524P'  symbol refreshed successfully.
+'HP6B620_1410H450'  symbol refreshed successfully.
+'HDMI23P50B1215_1500H838'  symbol refreshed successfully.
+'LED4B200_220H84'  symbol refreshed successfully.
+'MSOP10-0P5-3X3MM'  symbol refreshed successfully.
+'FPC24-0P5MM'  symbol refreshed successfully.
+'FPC8-0P5MM'  symbol refreshed successfully.
 
 
 ----- Symbol Update Summary ----
 
-Updated symbols: 39 out 39
+Updated symbols: 40 out 40
     Design updated.
 
